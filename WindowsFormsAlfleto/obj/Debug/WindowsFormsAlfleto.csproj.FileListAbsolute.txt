@@ -22,3 +22,12 @@ C:\Users\Anorak\Desktop\WindowsFormsAlfleto\WindowsFormsAlfleto\obj\Debug\Window
 C:\Users\Anorak\Desktop\WindowsFormsAlfleto\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.csproj.CoreCompileInputs.cache
 C:\Users\Anorak\Desktop\WindowsFormsAlfleto\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.exe
 C:\Users\Anorak\Desktop\WindowsFormsAlfleto\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.pdb
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Debug\WindowsFormsAlfleto.exe.config
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Debug\WindowsFormsAlfleto.exe
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Debug\WindowsFormsAlfleto.pdb
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.Form1.resources
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.Properties.Resources.resources
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.csproj.GenerateResource.Cache
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.csproj.CoreCompileInputs.cache
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.exe
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Debug\WindowsFormsAlfleto.pdb

@@ -16,15 +16,16 @@ namespace WindowsFormsAlfleto
         public Form1()
         {
             InitializeComponent();
+            AppDomain.CurrentDomain.SetData("DataDirectory", System.IO.Path.GetFullPath(AppDomain.CurrentDomain.BaseDirectory + "../../"));
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'dbTestDataSet.TablaTest' Puede moverla o quitarla según sea necesario.
-            this.tablaTestTableAdapter.Fill(this.dbTestDataSet.TablaTest);
-
+            LoadGrid();
         }
 
+       
         private async void button1_ClickAsync(object sender, EventArgs e)
         {
             var myConn = new SqlConnection();
@@ -50,5 +51,39 @@ namespace WindowsFormsAlfleto
 
 
         }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            var myConn = new SqlConnection();
+            myConn.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["WindowsFormsAlfleto.Properties.Settings.DbTestConnectionString"].ConnectionString;
+
+            using (myConn)
+            {
+                myConn.Open();
+                var myCommand = new SqlCommand("ProcedureInsert", myConn); //Solo el nombre del procedimiento
+                myCommand.CommandType = CommandType.StoredProcedure;
+
+                var lastId = myCommand.ExecuteScalar();
+
+                MessageBox.Show(lastId.ToString());
+
+                LoadGrid();
+
+            }
+        }
+
+        public void LoadGrid()
+        {
+            DataTable dt = new DataTable();
+            var myConn = new SqlConnection();
+            myConn.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["WindowsFormsAlfleto.Properties.Settings.DbTestConnectionString"].ConnectionString;
+            myConn.Open();
+            SqlCommand myCmd = new SqlCommand("ProcedureTest", myConn);
+            myCmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(myCmd);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
     }
 }

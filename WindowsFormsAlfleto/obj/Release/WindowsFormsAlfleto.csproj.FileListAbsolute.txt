@@ -1,0 +1,9 @@
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Release\WindowsFormsAlfleto.exe.config
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Release\WindowsFormsAlfleto.exe
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\bin\Release\WindowsFormsAlfleto.pdb
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.Form1.resources
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.Properties.Resources.resources
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.csproj.GenerateResource.Cache
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.csproj.CoreCompileInputs.cache
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.exe
+C:\Users\Anorak\Desktop\AlfletoWinForm\WindowsFormsAlfleto\obj\Release\WindowsFormsAlfleto.pdb
